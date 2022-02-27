@@ -1,0 +1,63 @@
+body {
+	background-color: rgb(249 249 249);
+	color: rgb(50,50,50);
+	font-family: Helvetica;
+	font-size: 17px
+}
+h1, h2, h3 {
+    font-family: unset;
+}
+h1 {
+    color: #10108f;
+    font-size: 25px;
+}
+h2 {
+color: rgb(0 0 0);
+font-size: 25px;
+}
+a {
+	font font-family: "Roboto", sans serif;
+	text-decoration: none;
+	color: red;
+	font-weight: 600
+	font-size: 16px;
+}
+a:hover {
+	color: #6a0808;
+}
+
+div {
+	background: white
+	border:2px solid black;
+	margin:10px;
+}
+
+/* Custom design with class */
+
+.container {
+	width: 800px;
+	margin: 40px;
+}
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow:0px 10px 30px rgba(0,0,0,0.1)
+	border-radius: 4px;
+	margin: 25px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%
+}
+
+.btn-red {
+	background color: red
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-red:hover {
+	background-color: black
+	color: white;
+}
